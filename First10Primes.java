@@ -4,6 +4,7 @@ public class First10Primes {
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;
+            
         }
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
@@ -11,6 +12,7 @@ public class First10Primes {
             }
         }
         return true;
+
     }
     
     public static void main(String[] args) {
